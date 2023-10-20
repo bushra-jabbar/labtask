@@ -1,7 +1,6 @@
+package week05LabAssign01;
 
-
-public class University {
-    private final Lab[] labs;
+public class University {    private final Lab[] labs;
 
     public University(int numberOfLabs) {
         labs = new Lab[numberOfLabs];
@@ -12,6 +11,5 @@ public class University {
             if (labs[i]==null) {
                 labs[i]=lab;
                 break; }}}
-
 
 }

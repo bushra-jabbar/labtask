@@ -1,5 +1,6 @@
-public class Computer {
-  private  String computerNumber;
+package week05LabAssign01;
+
+public class Computer {private  String computerNumber;
     private String icdModel;
     private int ramSize;
     private int hddSize;
@@ -80,4 +81,3 @@ public class Computer {
                 this.hasGPU == other.hasGPU;
     }
 }
-

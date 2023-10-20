@@ -1,7 +1,8 @@
-public class Employee {
-         private  String employeeID;
-          private  String name;
-          private static   String designation;
+package week05LabAssign01;
+
+public class Employee { private  String employeeID;
+    private  String name;
+    private static   String designation;
 
     public String getEmployeeID() {
         return employeeID;
@@ -28,5 +29,4 @@ public class Employee {
         this.name=name;
         this.designation="Lab Attendant";
     }
-
 }

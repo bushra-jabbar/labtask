@@ -1,10 +1,11 @@
+package week05LabAssign01;
+
 import java.util.Arrays;
 
-public class Lab {
-  private  String labID;
- private Employee labAttendant;
-private LabStatus status;
-private Computer[] computers;
+public class Lab { private  String labID;
+    private Employee labAttendant;
+    private LabStatus status;
+    private Computer[] computers;
 
     public Lab(String labID) {
         this.labID = labID;
@@ -30,7 +31,7 @@ private Computer[] computers;
         this.labAttendant = labAttendant;
     }
 
-   public void addComputer(Computer computer) {
+    public void addComputer(Computer computer) {
         for (int i=0;i<computers.length; i++) {
             if (computers[i]==null) {
                 computers[i] =computer;
@@ -59,9 +60,4 @@ private Computer[] computers;
         return "Lab{" +
                 "labID='" + labID + '\'' + ", status=" + status + ", labAttendant=" + labAttendant + ", computers=" + Arrays.toString(computers) + '}';
     }
-
 }
-
-
-
-
